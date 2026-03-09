@@ -27,6 +27,9 @@ chmod +x watchdog.sh
 
 3. **Configure your Heartbeat (Optional):**  
 Edit the file and add your Uptime Kuma Push URL in the KUMA_URL field.
+```bash  
+nano watchdog.sh
+```
 
 4. **Schedule it:**  
 Add the script to your crontab to run every 5 minutes:
